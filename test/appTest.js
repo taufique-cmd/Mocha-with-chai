@@ -24,19 +24,19 @@ describe('App',function(){
 
    
 
-        describe('addnumber()',function(){
-            it('addnumber should be above 5',function(){
-                let result = app.addnumber(5,5);
-                assert.isAbove(result,5);
-            });
+//         describe('addnumber()',function(){
+//             it('addnumber should be above 5',function(){
+//                 let result = app.addnumber(5,5);
+//                 assert.isAbove(result,5);
+//             });
             
-            it('addnumber should return type string', function(){
-                let result = app.addnumber(5,5);
-                assert.typeOf(result,'number');
-            });
+//             it('addnumber should return type string', function(){
+//                 let result = app.addnumber(5,5);
+//                 assert.typeOf(result,'number');
+//             });
             
 
-        });
+//         });
         
 
 
